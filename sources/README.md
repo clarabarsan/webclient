@@ -16,7 +16,7 @@ Inspiratie:
 
 
 Idee tema:
-    * Tema a pornit de la gestionarea fiecarui tip de comanda in parte, iar apoi generalizarea
+  * Tema a pornit de la gestionarea fiecarui tip de comanda in parte, iar apoi generalizarea
     partilor comune. Astfel, fiecare comanda respecta un algoritm de genul:
         - citirea datelor de intrare de la tastatura
         - verificarea restrictiilor (daca esti logat ca user/admin, daca ai acces token pentru 
@@ -25,5 +25,5 @@ Idee tema:
         - trimiterea mesajului si primirea raspunsului
         - gestionarea cazului de eroare/satisfacere conform codului de status din raspunsul primit
     
-    * In unele cazuri catre server au fost trimise doua requesturi (add_collection - foloseste
+  * In unele cazuri catre server au fost trimise doua requesturi (add_collection - foloseste
     add_movie_collection), care trimit in plus o cerere de adaugare de filme
