@@ -1,5 +1,3 @@
-Tema realizata de Barsan Clara, 324CC
-
 Inspiratie:
    * Tema se bazeaza pe laboratorul 9 (https://pcom.pages.upb.ro/labs). De acolo am luat strutura
     organizarii fisierelor, dar si functiile specifice HTTP (GET, POST), pe care le-am implementat
