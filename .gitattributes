@@ -1,0 +1,4 @@
+checker.py linguist-detectable=false
+info.py linguist-detectable=false
+tests.py linguist-detectable=false
+topo.py linguist-detectable=false
