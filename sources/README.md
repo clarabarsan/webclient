@@ -1,15 +1,16 @@
 Tema realizata de Barsan Clara, 324CC
 
 Inspiratie:
-   * Tema se bazeaza pe laboratorul 9. De acolo am luat strutura organizarii fisierelor, dar si
-    functiile specifice HTTP (GET, POST), pe care le-am implementat in timpul laboratorului.
-    Totusi, functiile respective au primit adaugate headere (am considerat ca acest lucru este
-    necesar pentru a trimite token-ul JWT), iar functiile DELETE si PUT se bazeaza pe cele scrise
-    la laborator: GET, respectiv POST si modificate si particularizate ulterior de mine.
+   * Tema se bazeaza pe laboratorul 9 (https://pcom.pages.upb.ro/labs). De acolo am luat strutura
+    organizarii fisierelor, dar si functiile specifice HTTP (GET, POST), pe care le-am implementat
+    in timpul laboratorului. Totusi, functiile respective au primit adaugate headere (am considerat
+    ca acest lucru este necesar pentru a trimite token-ul JWT), iar functiile DELETE si PUT se
+    bazeaza pe cele scrise la laborator: GET, respectiv POST si modificate si particularizate
+    ulterior de mine.
     
    * In enuntul temei s-a sugerat sa folosim JSON, lucru pe care l-am si facut. Am ales scrierea
-    codului in C (pentru ca Cpp nu stiu la un nivel foarte inalt), motiv pentru care am folosit
-    parson. (https://github.com/kgabis/parson - fix de aici am luat tot fisierul).
+    codului in C, motiv pentru care am folosit parson. (https://github.com/kgabis/parson
+    - fix de aici am luat fisierul).
     
    * Am folosit JWT token pentru ca asa ne era sugerat in tema, iar informarea in acest sens am
     facut-o de pe site-ul urmator: https://jwt.io/introduction
@@ -27,3 +28,5 @@ Idee tema:
     
   * In unele cazuri catre server au fost trimise doua requesturi (add_collection - foloseste
     add_movie_collection), care trimit in plus o cerere de adaugare de filme
+
+Cerintele si punctarea se gasesc la: https://pcom.pages.upb.ro/enunt-tema4/about.html
